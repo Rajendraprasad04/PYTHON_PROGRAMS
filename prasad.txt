@@ -1,0 +1,1 @@
+{"name": "rajendra", "age": 21, "mobile": 89775, "male": true, "female": false, "gf": "yes"}

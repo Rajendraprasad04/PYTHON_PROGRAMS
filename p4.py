@@ -1,0 +1,22 @@
+class Bank():
+    bank_name='SBI'
+    bank_ifsc=12345
+    bank_roi=5
+    bank_address='bangalore'
+rajendra=Bank()
+kiran=Bank()
+print(Bank.bank_name)
+print(rajendra.bank_name)
+print(kiran.bank_name)
+Bank.bank_roi=6
+print(Bank.bank_roi)
+print(rajendra.bank_roi)
+print(kiran.bank_roi)
+Bank.mobile=8897628414
+print(Bank.mobile)
+print(rajendra.mobile)
+print(kiran.mobile)
+rajendra.mobile=9704201577
+print(rajendra.mobile)
+karunakar.location=nellore
+print(Bank.location)
